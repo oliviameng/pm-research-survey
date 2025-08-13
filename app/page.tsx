@@ -56,10 +56,9 @@ export default function SurveyLandingPage() {
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
         <div className="space-y-8 animate-in fade-in duration-1000">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Two-Minute Decision Pulse</h1>
-          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            We're exploring new ways people make choices at work. Share your approach in ~2 minutes. No personal info
-            required.
+          <h1 className="text-4xl md:text-6xl tracking-tight font-light">Two-Minute Decision Pulse</h1>
+          <p className="text-xl md:text-2xl dark:text-gray-400 max-w-3xl mx-auto leading-relaxed leading-5 font-light text-left text-slate-500">
+             {"We\'re just two friends from xAI and Meta trying to understand how people work with knowledge and strategies at scale.\n\nTake 2 minutes to share your experience and get early access. "}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -157,7 +156,7 @@ export default function SurveyLandingPage() {
       <section id="why-matters" className="max-w-6xl mx-auto px-4 py-16 bg-gray-50 dark:bg-gray-900/50">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Why this matters</h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400">1,248 responses and counting</p>
+          <p className="text-lg text-gray-600 dark:text-gray-400">50+ responses and counting</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -210,7 +209,7 @@ export default function SurveyLandingPage() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Who is this for?</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Operators, creators, and leaders who make decisions daily.
+              Operators, Product manager, and Business leaders who solve high complexity challenges everyday
             </p>
           </div>
           <div className="space-y-4">
